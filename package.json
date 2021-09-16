@@ -1,0 +1,16 @@
+{
+  "name": "6",
+  "version": "1.0.0",
+  "description": "Your challenge is to build out this landing page and get it looking as close to the design as possible.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.15"
+  }
+}

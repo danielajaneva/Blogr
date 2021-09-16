@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blogr</title>
+</head>
+<body>
+
+    <div class="font-overpass bg-gray-100">
+        <!-- HEADER -->
+        <div class="bg-gradient-to-r from-gradients-100 to-gradients-200 rounded-bl-5R overflow-hidden">
+            <div class="bg-intro-pattern bg-no-repeat bg-center">
+                <nav class="mx-5 sm:mx-10 md:mx-36 pt-10 lg:flex lg:items-center relative">
+                    <div class="flex justify-between ">
+                        <h1 class="text-3xl md:text-4xl text-secondary-100 font-bold">
+                            <a href="/">Blogr</a>
+                        </h1>
+                        <div class="lg:hidden cursor-pointer p-4 " id="burger">
+                            <svg width="32" height="18" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z"/></g></svg>
+                        </div>
+                    </div>
+                    <div id="cta" class="w-full">
+                        <div class="lg:flex lg:items-center w-full justify-between hidden" id="menu">
+                            <ul class="lg:flex lg:text-secondary-100 lg:text-opacity-75 " >
+                                <li class="lg:pl-16 py-3 lg:hover:text-secondary-100 lg:hover:underline hover:text-secondary-400"><a href="#">Product <img class="inline" src="./images/icon-arrow-light.svg" alt="icon-arrow-light"></a></li>
+                                <li class="lg:pl-16 py-3 lg:hover:text-secondary-100 lg:hover:underline"><a href="#">Comapny <img class="inline" src="./images/icon-arrow-light.svg" alt="icon-arrow-light"></a></li>
+                                <li class="lg:pl-16 py-3 lg:hover:text-secondary-100 lg:hover:underline"><a href="#">Connect <img class="inline" src="./images/icon-arrow-light.svg" alt="icon-arrow-light"></a></li>
+                            </ul>
+                            <ul class="lg:flex lg:border-none border-t-2 border-gray-100">
+                                <li class="lg:text-secondary-100 px-6 py-2 lg:text-opacity-75 lg:hover:text-opacity-100"><a href="#">Log in</a></li>
+                                <li class="lg:text-primary-100 lg:bg-secondary-100 rounded-3xl px-6 py-2 lg:hover:bg-primary-200 lg:hover:text-secondary-100"><a href="#">Sign up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <header class="text-center py-28 md:py-36 mx-5 sm:mx-10 md:mx-36">
+                    <h1 class="text-secondary-100 mb-6 lg:text-7xl text-5xl">A modern publishing platform</h1>
+                    <p class="text-secondary-100 text-opacity-75 mb-14 tracking-widest">Grow your audience and build your online brand</p>
+                    <div >
+                        <a class="text-primary-100 bg-secondary-100 rounded-3xl px-6 py-4 font-bold mr-4 hover:bg-primary-200 hover:text-secondary-100" href="#">Start For Free</a>
+                        <a class="text-secondary-100 px-6 py-4 text-opacity-75 font-bold rounded-3xl border hover:text-primary-100 hover:bg-secondary-100" href="#">Learn More</a>
+                    </div>
+                </header>
+            </div>
+        </div>
+     <!-- MAIN --> 
+        <main >
+        <!-- FUTURE -->
+            <div class="relative overflow-hidden lg:pb-40 pb-14 lg:mt-20 mt-10">
+                <h1 class="text-center py-10 lg:py-20 text-3xl text-primary-300 font-bold">Designed for the future</h1>
+                <div class="mx-5 sm:mx-10 md:mx-36  grid lg:grid-cols-2 lg:grid-rows-2 gap-y-16 "> 
+                    <div class="col-start-1 col-end-2 lg:text-left text-center">
+                        <h2 class="text-xl text-primary-300 font-bold pb-5">Introducing an extensible editor</h2>
+                        <p class="text-gray-500">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports menagement od multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of blog.</p>
+                    </div>
+                    <div class="col-start-1 col-end-2 lg:text-left text-center">
+                        <h2 class="text-xl text-primary-300 font-bold pb-5">Robust content management</h2>
+                        <p class="text-gray-500">Flexible content management enables users to easily move through posts. Increse the usability of your blog by adding customizes categories, sections, format, or flow. With this functionality, you're in full control.</p>
+                    </div>
+                    <div class="lg:col-start-2 lg:col-end-3 row-start-1 row-end-3 ">
+                        <img class="lg:w-7/12 lg:absolute -top-0 -right-56" src="images/illustration-editor-desktop.svg" alt="illustration-editor-desktop">
+                    </div>
+                </div>
+            </div>
+            <!-- INFRASTRUCTURE -->
+            <div class="relative lg:my-20 my-10 mt-40">
+                <div class="bg-gradient-to-r from-gradients-300 to-gradients-400 rounded-bl-5R rounded-tr-5R overflow-hidden  relative">
+                    <div class="grid lg:grid-cols-2 mx-5 sm:mx-10 md:mx-36 gap-x-20">
+                        <div class="col-start-1 col-end-2 ">
+                            <img class="lg:absolute lg:-mt-36 -mt-24 -top-96 -left-48" src="images/bg-pattern-circles.svg" alt="illustration-phones">
+                        </div>
+                     
+                        <div class="lg:col-start-2 lg:col-end-3 lg:py-28 py-12 lg:text-left text-center">
+                            <h1 class="py-5 text-3xl text-secondary-100 font-bold">State of the Art Infrastructure</h1>
+                            <p class="text-opacity-75 text-secondary-100">With reliability and speed in mind, worlwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-0 sm:mx-10 md:mx-36">
+                    <img class="absolute lg:-ml-10 lg:-top-16 -top-44" src="images/illustration-phones.svg" alt="illustration-phones">
+                </div>
+            </div>
+             <!-- PART 3 -->
+             <div class="relative overflow-hidden lg:py-32 py-16">
+                
+                <div class="mx-5 sm:mx-10 md:mx-36  grid lg:grid-cols-2 lg:grid-rows-2 gap-y-16 "> 
+                    <div class="lg:col-start-2 lg:col-end-3 lg:text-left text-center">
+                        <h2 class="text-xl text-primary-300 font-bold pb-5">Free, open, simple</h2>
+                        <p class="text-gray-500">Blogr is a free open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+                    </div>
+                    <div class="lg:col-start-2 lg:col-end-3 lg:text-left text-center">
+                        <h2 class="text-xl text-primary-300 font-bold pb-5">Powerful tooling</h2>
+                        <p class="text-gray-500">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+                    </div>
+                    <div class="col-start-1 col-end-2 row-start-1 lg:row-end-3 ">
+                        <img class="lg:w-7/12 lg:absolute -top-0 -left-56" src="images/illustration-laptop-desktop.svg" alt="illustration-laptop-desktop">
+                    </div>
+                </div>
+            </div>
+        </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="text-secondary-200 bg-secondary-400 py-20 mt-20 rounded-tr-5R overflow-hidden">
+        <div class="mx-5 sm:mx-10 md:mx-36 grid md:grid-cols-4 gap-y-10 lg:text-left text-center">
+            <div>
+                <h1 class="text-4xl text-secondary-100 font-bold">
+                    <a href="/">Blogr</a>
+                </h1>
+            </div>
+            <div>
+                <h3 class="mt-4 font-bold mb-10 text-secondary-100">Product</h3>
+                <ul>
+                    <li class="py-2 hover:underline"><a href="#">Overview</a></li>
+                    <li class="py-2 hover:underline"><a href="#">Pricing</a></li>
+                    <li class="py-2 hover:underline"><a href="#">Marketplace</a></li>
+                    <li class="py-2 hover:underline"><a href="#">Features</a></li>
+                    <li class="py-2 hover:underline"><a href="#">Integrations</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="mt-4 font-bold mb-10 text-secondary-100">Comapny</h3>
+                <ul>
+                    <li class="py-2 hover:underline"><a href="#">About</a></li>
+                    <li class="py-2 hover:underline"><a href="#">Team</a></li>
+                    <li class="py-2 hover:underline"><a href="#">Blog</a></li>
+                    <li class="py-2 hover:underline"><a href="#">Career</a></li> 
+                </ul>
+            </div>
+            <div>
+                <h3 class="mt-4 font-bold mb-10 text-secondary-100">Connect</h3>
+                <ul>
+                    <li class="py-2 hover:underline"><a href="#">Contact</a></li>
+                    <li class="py-2 hover:underline"><a href="#">Newsletter</a></li>
+                    <li class="py-2 hover:underline"><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="../src/index.js"></script>
+</body>
+</html>
